@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+<header>
+    <h1>Note app</h1>
+</header>
+<div class="container">
+    <div class="create_note_area">
+        <form name="addnote" method="post" action="/addnote">
+            <textarea class="text_area_note" name="usernote" placeholder="Enter the note"></textarea>
+            <br>
+            <textarea class="text_area_name" name="username" placeholder="Your name"></textarea>
+            <input class="enter_button" type="submit" value="Enter">
+        </form>
+    </div>
+    <div class="notes">
+        <p>note1</p>
+        <p>note2</p>
+        <p>note3</p>
+    </div>
+</div>
+<footer>
+    <p>Something...</p>
+</footer>
+</body>
+</html>

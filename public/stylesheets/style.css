@@ -1,0 +1,34 @@
+body {
+    width: 900px;
+    margin: auto;
+    background: gainsboro;
+}
+header {
+    background: red;
+    text-align: center;
+}
+.container {
+
+}
+footer{
+    background: blue;
+    text-align: center;
+}
+.create_note_area{
+    background: green;
+}
+.text_area_note {
+    margin-left: 2%;
+    width: 95%;
+    height: 100px;
+    resize: none;
+}
+.text_area_name {
+    margin-left: 2%;
+    width: 30%;
+    resize: none;
+}
+.enter_button {
+    margin-right: 2.5%;
+    float: right;
+}
